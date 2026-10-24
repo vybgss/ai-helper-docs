@@ -686,6 +686,27 @@ strong {
   width: 72px;
 }
 
+.cta-band .cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.button.light {
+  color: var(--purple);
+  background: #fff;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.15);
+}
+
+.button.outline {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.55);
+  box-shadow: none;
+}
+
 @media (max-width: 860px) {
   .hero,
   .split {
