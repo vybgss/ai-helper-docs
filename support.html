@@ -2,157 +2,214 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>AI Helper - Support</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        max-width: 800px;
-        margin: 40px auto;
-        padding: 0 40px;
-        line-height: 1.6;
-        color: #333;
-      }
-      h1 {
-        text-align: center;
-        margin-bottom: 50px;
-        color: #1a73e8;
-      }
-      h2 {
-        color: #333;
-        margin-top: 40px;
-      }
-      p {
-        margin-bottom: 20px;
-      }
-      a {
-        color: #1a73e8;
-        text-decoration: none;
-      }
-      a:hover {
-        text-decoration: underline;
-      }
-      ul {
-        list-style-type: none;
-        padding: 0;
-      }
-      ul li {
-        background: #f9f9f9;
-        padding: 10px;
-        margin-bottom: 10px;
-        border-left: 4px solid #1a73e8;
-      }
-      .top-text {
-        font-style: italic;
-        margin-bottom: 50px;
-      }
-      .subscription-info {
-        background: #e8f0fe;
-        padding: 20px;
-        border-radius: 8px;
-        margin: 20px 0;
-        border-left: 4px solid #1a73e8;
-      }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Support · AI Helper</title>
+    <meta name="description" content="Help for AI Helper on iPhone and iPad: getting started, chats, subscription, privacy and troubleshooting." />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" type="image/svg+xml" href="assets/mascot.svg" />
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+    <link rel="stylesheet" href="assets/style.css" />
   </head>
   <body>
-    <h1>AI Helper - Support</h1>
+    <header class="site-header">
+      <div class="inner">
+        <a class="brand" href="marketing.html"><img src="assets/mascot.svg" alt="" /><span>AI Helper</span></a>
+        <nav class="site-nav" aria-label="Main">
+          <a href="marketing.html">Home</a>
+          <a href="support.html" aria-current="page">Support</a>
+          <a href="privacy-policy.html">Privacy</a>
+        </nav>
+      </div>
+    </header>
 
-    <p class="top-text">
-      Need help with the AI Helper app or have questions about its features? You're in the right place. Below, you'll find answers to frequently asked questions and ways to contact us for further assistance. We're here to ensure you get the most out of your AI conversations.
-    </p>
+    <main class="page">
+      <div class="page-hero">
+        <img class="mascot" src="assets/mascot.svg" alt="" />
+        <h1><span class="gradient-text">How can we help?</span></h1>
+        <p class="lead">Answers to common questions about AI Helper, and a direct line to us when you need it.</p>
+        <ul class="toc" aria-label="Topics">
+          <li><a href="#start">Getting started</a></li>
+          <li><a href="#chats">Chats</a></li>
+          <li><a href="#subscription">Subscription</a></li>
+          <li><a href="#privacy">Privacy</a></li>
+          <li><a href="#troubleshooting">Troubleshooting</a></li>
+          <li><a href="#contact">Contact us</a></li>
+        </ul>
+      </div>
 
-    <h2>Frequently Asked Questions (FAQ)</h2>
-    <ul>
-      <li>
-        <strong>1. How do I start chatting with the AI?</strong><br />
-        Simply type your message in the text field at the bottom of the screen and tap the send button. The AI will respond to your questions and engage in conversation with you.
-      </li>
+      <section class="card" aria-labelledby="quick-start">
+        <h2 id="quick-start">Quick start</h2>
+        <ul class="feature-list">
+          <li>
+            <span class="icon-tile tile-pink" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1.1-4.4A8 8 0 1 1 21 12z" /></svg>
+            </span>
+            <span><span class="title">Ask anything</span><span class="subtitle">Type in the message field at the bottom, or tap a suggestion above it, and tap the send arrow.</span></span>
+          </li>
+          <li>
+            <span class="icon-tile tile-purple" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h10" /></svg>
+            </span>
+            <span><span class="title">Find your chats</span><span class="subtitle">Tap the menu button at the top left (or swipe from the left edge on iPhone) to open your history.</span></span>
+          </li>
+          <li>
+            <span class="icon-tile tile-indigo" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z" /><path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z" /></svg>
+            </span>
+            <span><span class="title">Try it free</span><span class="subtitle">Your first 5 replies are free. After that, All Access keeps the conversation going.</span></span>
+          </li>
+        </ul>
+      </section>
 
-      <li>
-        <strong>2. What is the subscription requirement?</strong><br />
-        AI Helper requires a monthly subscription to access chat features. This ensures you get reliable, high-quality AI responses and priority support.
-      </li>
+      <h2 id="start">Getting started</h2>
+      <div class="faq">
+        <details>
+          <summary>What can I ask AI Helper?</summary>
+          <p>Almost anything: explanations, recipes, travel plans, emails, translations, study help, brainstorming or code. Replies are formatted with headings, lists, tables and code blocks so they are easy to read.</p>
+        </details>
+        <details>
+          <summary>Which languages does it support?</summary>
+          <p>AI Helper replies in the language you write in. Write in Ukrainian, Spanish, Japanese or any other language and the answer comes back in the same one. The app's own interface is in English.</p>
+        </details>
+        <details>
+          <summary>Which AI model does the app use?</summary>
+          <p>Replies are generated by OpenAI's GPT-4.1 nano model, guided by AI Helper's instructions to give clear, well-structured answers.</p>
+        </details>
+        <details>
+          <summary>Does it work on iPad?</summary>
+          <p>Yes. On iPad your chat history sits in a sidebar next to the conversation. On iPhone it slides in as a drawer. AI Helper needs iOS 18.5 or later.</p>
+        </details>
+        <details>
+          <summary>Can I change the theme or turn off the typing animation?</summary>
+          <p>Open the history, tap the gear button at the bottom to open <strong>Settings</strong>, then choose a <strong>Theme</strong> (System, Light or Dark) or switch off <strong>Typing animation</strong> to show replies instantly.</p>
+        </details>
+        <details>
+          <summary>Are AI answers always correct?</summary>
+          <p>No. AI can make mistakes or sound confident about something that is wrong. Double-check important facts, and do not rely on AI Helper for medical, legal or financial decisions.</p>
+        </details>
+      </div>
 
-      <li>
-        <strong>3. How do I subscribe to the premium service?</strong><br />
-        When you first open the app, you'll see the subscription screen. Tap "Subscribe" to purchase the monthly subscription through the App Store. You can also access this from the menu (three dots) in the top right.
-      </li>
+      <h2 id="chats">Chats</h2>
+      <div class="faq">
+        <details>
+          <summary>How do I start a new chat?</summary>
+          <p>Tap the compose button at the top right of the chat, or <strong>New chat</strong> in the history. Your previous chat stays in the history.</p>
+        </details>
+        <details>
+          <summary>How do I find an older conversation?</summary>
+          <p>Open the history with the menu button at the top left. Chats are grouped by date (Today, Yesterday, Previous 7 Days and so on), and the search field at the top finds chats by their content.</p>
+        </details>
+        <details>
+          <summary>How do I rename, share or delete a chat?</summary>
+          <p>Tap the chat title at the top of the screen for <strong>Rename</strong>, <strong>Share Chat</strong> and <strong>Delete</strong>. In the history, swipe a chat to rename or delete it, or touch and hold it for all three actions.</p>
+        </details>
+        <details>
+          <summary>Can I change a message I already sent?</summary>
+          <p>Touch and hold your message and choose <strong>Edit &amp; Resend</strong>. The message and everything after it is removed, and its text goes back into the message field so you can change it and send it again.</p>
+        </details>
+        <details>
+          <summary>How do I get a different answer?</summary>
+          <p>Tap the <strong>Regenerate</strong> button under the latest reply. To stop a reply that is still being written, tap the stop button in the message field.</p>
+        </details>
+        <details>
+          <summary>How do I copy part of a reply?</summary>
+          <p>Use the copy button under a reply to copy all of it. To copy only part, touch and hold the reply, choose <strong>Select Text</strong> and select what you need. Code blocks also have their own copy button.</p>
+        </details>
+        <details>
+          <summary>Why did a new chat open when I came back?</summary>
+          <p>In <strong>Settings → Start new chat</strong> you can have AI Helper open a fresh chat when you return after a day or a month. Earlier chats are not deleted; they stay in your history. Choose <strong>Never</strong> to always continue where you left off.</p>
+        </details>
+        <details>
+          <summary>Are my chats synced between my devices?</summary>
+          <p>No. Your chats are stored only on the device where you had them, and they are not synced through iCloud. To keep a conversation elsewhere, use <strong>Share Chat</strong> to send it to Notes, Mail or Files.</p>
+        </details>
+      </div>
 
-      <li>
-        <strong>4. Can I restore my subscription on a new device?</strong><br />
-        Yes! If you've previously purchased a subscription, tap "Restore Purchases" on the subscription screen to restore your access on any device using the same Apple ID.
-      </li>
+      <h2 id="subscription">Subscription</h2>
+      <div class="faq">
+        <details>
+          <summary>Is AI Helper free?</summary>
+          <p>You can try it with 5 free replies. After that, chatting requires the <strong>All Access</strong> monthly subscription. Settings shows how many free messages you have left. Replies that fail or that you stop do not use up a free message.</p>
+        </details>
+        <details>
+          <summary>What does All Access include?</summary>
+          <p>Unlimited everyday chatting with advanced, well-structured AI answers, fast responses, priority support and no ads. The price in your currency is shown in the app before you subscribe.</p>
+        </details>
+        <details>
+          <summary>How do I subscribe?</summary>
+          <p>Tap <strong>Upgrade</strong> at the bottom of the history, the card at the top of Settings, or <strong>See plans</strong> when you run out of free messages. Payment is handled by Apple and charged to your Apple Account.</p>
+        </details>
+        <details>
+          <summary>I already subscribed. How do I restore it on a new device?</summary>
+          <p>Make sure you are signed in with the same Apple Account, open the subscription screen and tap <strong>Restore</strong>.</p>
+        </details>
+        <details>
+          <summary>How do I cancel or manage my subscription?</summary>
+          <p>In AI Helper, open Settings and tap <strong>Manage</strong> on the card at the top. You can also go to the iOS <strong>Settings → [your name] → Subscriptions</strong>. The subscription renews automatically unless you cancel at least 24 hours before the end of the current period; you keep access until then.</p>
+        </details>
+        <details>
+          <summary>How do I request a refund?</summary>
+          <p>Apple handles all payments, so refunds are requested from Apple at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>. We cannot issue refunds ourselves.</p>
+        </details>
+        <details>
+          <summary>Why do I still have few free messages after reinstalling?</summary>
+          <p>The free message count is kept securely on your device, so deleting and reinstalling the app does not reset it.</p>
+        </details>
+      </div>
 
-      <li>
-        <strong>5. How do I clear my chat history?</strong><br />
-        Tap the menu button (three dots) in the top right corner and select "Clear Chat" to remove all messages and start fresh.
-      </li>
+      <h2 id="privacy">Privacy</h2>
+      <div class="faq">
+        <details>
+          <summary>Do I need an account?</summary>
+          <p>No. There is no sign-up and no login. AI Helper never asks for your name, email or phone number.</p>
+        </details>
+        <details>
+          <summary>Where are my conversations stored?</summary>
+          <p>Only on your device. When you send a message, the current conversation is sent through our server to OpenAI to generate the reply; our server does not keep it. The <a href="privacy-policy.html">Privacy Policy</a> explains the details.</p>
+        </details>
+        <details>
+          <summary>How do I delete my data?</summary>
+          <p>Delete single chats from the chat menu or the history, or remove everything with <strong>Settings → Delete all chats</strong>. Deleting the app also removes your conversations. Deleted chats cannot be recovered.</p>
+        </details>
+      </div>
 
-      <li>
-        <strong>6. Why am I seeing "Premium subscription required" error?</strong><br />
-        This appears when your subscription has expired or hasn't been properly activated. Try restoring purchases first, or renew your subscription through the App Store.
-      </li>
+      <h2 id="troubleshooting">Troubleshooting</h2>
+      <div class="faq">
+        <details>
+          <summary>I see "Something went wrong" instead of a reply</summary>
+          <p>Check that your device is online (Wi-Fi or mobile data, and that AI Helper is allowed to use mobile data in iOS Settings), then tap <strong>Try again</strong> on the card. If it keeps happening, wait a minute and try again, or contact us.</p>
+        </details>
+        <details>
+          <summary>A reply is taking a long time</summary>
+          <p>Long answers can take a little longer to arrive on a slow connection. You can tap the stop button and send your message again, or try a shorter question.</p>
+        </details>
+        <details>
+          <summary>The app asks me to subscribe even though I already did</summary>
+          <p>Open the subscription screen and tap <strong>Restore</strong>. Check that you are signed in with the Apple Account you used to subscribe, and in iOS <strong>Settings → [your name] → Subscriptions</strong> that the subscription is active. If you use Family Sharing with Ask to Buy, the purchase may still be waiting for approval.</p>
+        </details>
+        <details>
+          <summary>The app closes unexpectedly or looks wrong</summary>
+          <p>Update AI Helper to the latest version in the App Store, then close the app and open it again. If the problem continues, restart your device. Please email us with your device model, iOS version and the app version from <strong>Settings → Version</strong>.</p>
+        </details>
+      </div>
 
-      <li>
-        <strong>7. What AI model does the app use?</strong><br />
-        AI Helper uses the advanced GPT-4.1-nano model to provide intelligent, helpful responses to your questions and conversations.
-      </li>
+      <h2 id="contact">Contact us</h2>
+      <section class="card contact-card">
+        <p>Didn't find your answer, have an idea or found a bug? We read every message and will get back to you as soon as we can.</p>
+        <a class="button" href="mailto:volodymyr.sichka@gmail.com?subject=AI%20Helper%20Support">Email support</a>
+        <p class="meta">volodymyr.sichka@gmail.com · Include your app version from Settings to help us help you faster.</p>
+      </section>
+    </main>
 
-      <li>
-        <strong>8. Can I copy text from AI responses?</strong><br />
-        Yes! AI responses support text selection, so you can tap and hold to select and copy any part of the AI's message.
-      </li>
-    </ul>
-
-    <div class="subscription-info">
-      <h2>Subscription Information</h2>
-      <p>
-        <strong>What's included in your subscription:</strong>
-      </p>
-      <ul style="margin-left: 20px; list-style-type: disc;">
-        <li>Chat messages with AI</li>
-        <li>Advanced AI responses powered by GPT-4.1-nano</li>
-        <li>Fast response times</li>
-        <li>Priority customer support</li>
-      </ul>
-    </div>
-
-    <h2>Troubleshooting</h2>
-    <ul>
-      <li>
-        <strong>App crashes or freezes:</strong><br />
-        Try force-closing the app and reopening it. If issues persist, restart your device or reinstall the app.
-      </li>
-
-      <li>
-        <strong>Messages not sending:</strong><br />
-        Check your internet connection and ensure your subscription is active. The app requires both internet access and an active subscription to function.
-      </li>
-
-      <li>
-        <strong>Subscription not working:</strong><br />
-        First, try "Restore Purchases" on the subscription screen. If that doesn't work, check your App Store subscription status in Settings > [Your Name] > Subscriptions.
-      </li>
-    </ul>
-
-    <h2>Contact Support</h2>
-    <p>
-      If you didn't find the answer you're looking for, or if you need further assistance, feel free to reach out to us. We'll get back to you as soon as possible.
-    </p>
-    <p>
-      <strong>Email:</strong>
-      <a href="mailto:volodymyr.sichka@gmail.com">volodymyr.sichka@gmail.com</a>
-    </p>
-
-    <h2>Feedback</h2>
-    <p>
-      We value your feedback! If you have suggestions, improvements, or feature requests, please send them to the email above. Your input helps us make AI Helper better for everyone.
-    </p>
-
-    <h2>Privacy & Security</h2>
-    <p>
-      Your privacy is important to us. All conversations are processed securely, and we don't store your personal messages longer than necessary to provide the service. For detailed information about how we handle your data, please refer to our Privacy Policy.
-    </p>
+    <footer class="site-footer">
+      <span>© 2026 AI Helper</span>
+      <nav aria-label="Footer">
+        <a href="marketing.html">Home</a>
+        <a href="support.html">Support</a>
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use</a>
+      </nav>
+    </footer>
   </body>
 </html>

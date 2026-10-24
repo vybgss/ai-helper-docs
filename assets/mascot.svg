@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 95" role="img" aria-label="AI Helper">
+  <!-- Geometry mirrors BotGlyph.swift (width 100, antennas shown); fill is Theme.mascotGradient. -->
+  <defs>
+    <linearGradient id="mascot" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="100" y2="95">
+      <stop offset="0" stop-color="#F5548C"/>
+      <stop offset="0.33" stop-color="#9E52ED"/>
+      <stop offset="0.67" stop-color="#5C6BF5"/>
+      <stop offset="1" stop-color="#1FCCB3"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#mascot)">
+    <rect x="0" y="23" width="100" height="72" rx="30"/>
+    <rect x="28" y="7" width="7" height="24" rx="3.5"/>
+    <rect x="65" y="7" width="7" height="24" rx="3.5"/>
+    <circle cx="31.5" cy="7" r="7"/>
+    <circle cx="68.5" cy="7" r="7"/>
+  </g>
+  <g fill="#FFFFFF">
+    <rect x="23" y="50.5" width="17" height="17" rx="8.5"/>
+    <rect x="60" y="50.5" width="17" height="17" rx="8.5"/>
+  </g>
+</svg>
